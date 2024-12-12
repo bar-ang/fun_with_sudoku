@@ -91,9 +91,6 @@ class Sudoku:
                 t += "\n"
         return t
 
-class SudokuMaker(Sudoku):
-    
-
 def random_sudoku(size=9, num_fixed=8):
     su = Sudoku([[0] * size for i in range(size)])
     for i in range(num_fixed):
